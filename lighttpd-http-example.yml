@@ -9,4 +9,4 @@ apis:
     commands: 
       - cache: status?format=plain
         split_by: ": "
-    snake_to_camel: true"
+    snake_to_camel: "true"
