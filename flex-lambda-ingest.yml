@@ -2,9 +2,7 @@
 ---
 name: FlexEcsStateChange
 apis: 
-  - event_type: LambdaFlexIngestSample
+  - event_type: EcsStateChangeSample
     ingest: true # the ingest parameter needs to be flagged to true
     start_key:
       - detail
-    custom_attributes:
-      nestedCustAttr: nestedCustVal # nested custom attributes specific to each api
