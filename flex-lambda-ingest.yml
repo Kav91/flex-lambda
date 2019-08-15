@@ -4,5 +4,5 @@ name: FlexEcsStateChange
 apis: 
   - event_type: EcsStateChangeSample
     ingest: true # the ingest parameter needs to be flagged to true
-    rename_keys:
-      "detail.": ""
+#     rename_keys:
+#       "detail.": ""
