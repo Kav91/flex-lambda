@@ -1,0 +1,8 @@
+### basic http json example
+---
+name: httpExample
+apis: 
+  - event_type: lambdaRestFetchExample
+    url: https://jsonplaceholder.typicode.com/users/1
+    custom_attributes:
+      from: I_Came_From_A_Lambda # nested custom attributes specific to each api
